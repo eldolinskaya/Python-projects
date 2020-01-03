@@ -32,8 +32,8 @@ def commands(): #создание панели команд
     tbl.add_row(["5", 'Завершить работу'])
     print(tbl)
     global numb
-    numb = int(input('Введите номер команды:')) #удалила return
-
+    numb = int(input('Введите номер команды:')
+    return numb
 
 def show_list(): #вывод списка пользователей
     if numb == 1:
